@@ -140,9 +140,6 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-/* TODO: aside styling
-    */
-
 .transform {
     transform: rotate(270deg);
     position: sticky;
