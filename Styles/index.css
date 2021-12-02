@@ -1,14 +1,9 @@
 html {
-<<<<<<< HEAD
-    height:100%;
-    min-width: 320px;
-=======
     width: 100%;
     height: 100%;
     min-width: 320px;
     scroll-behavior: smooth;
     font-size: 16px;
->>>>>>> finalize website except navbar on mobile
 }
 
 .flex-wrapper {
@@ -18,19 +13,6 @@ html {
 }
 
 header {
-<<<<<<< HEAD
-    min-width: 320px;
-    position: fixed;
-    width: 100vw;
-    height: 1.5rem;
-    z-index: 1;
-    background-color: #d89349;
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center;
-    line-height: 0;
-=======
     position: fixed;
     width: 100%;
     height: 6vw;
@@ -38,50 +20,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
->>>>>>> finalize website except navbar on mobile
     padding: 0.3rem 0;
 }
 
 main,
 footer {
     position: relative;
-<<<<<<< HEAD
-    top: calc(8rem/4);
-}
-
-h1 {
-    font-size: 1.4rem;
-    margin-left: 0.3rem;
-}
-
-.button {
-    margin-right: 0.3rem;
-    
-}
-
-.button div{
-    text-align: center;
-    width: 1.5rem;
-    height: 0.15rem;
-    background-color: #000;
-    margin: 3px 0;
-}
-
-.button:hover {
-    transition: 0.4s;
-    transform: rotate(-45deg) rotateX(-160deg);
-}
-
-.button:hover div {
-    background-color: #80a3bf;
-}
-
-.about {
-    background-color: #fbd4a7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-=======
     top: calc(6vw + 0.6rem);
 }
 
@@ -136,7 +80,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     height: fit-content;
->>>>>>> finalize website except navbar on mobile
 }
 
 .about img {
@@ -148,10 +91,7 @@ h1 {
 .about h2 {
     align-self: flex-start;
     padding-left: 2.5vw;
-<<<<<<< HEAD
-=======
     font-size: calc(0.25rem + 4vw);
->>>>>>> finalize website except navbar on mobile
 }
 
 .about h2,
@@ -165,15 +105,12 @@ h1 {
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     text-align: justify;
-<<<<<<< HEAD
-=======
     font-size: calc(0.25rem + 3vw);
 }
 
 .portfolio {
     height: max-content;
     margin-bottom: 8rem;
->>>>>>> finalize website except navbar on mobile
 }
 
 .portfolio h2 {
@@ -203,8 +140,6 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-<<<<<<< HEAD
-=======
 /* TODO: aside styling
     */
 
@@ -221,19 +156,11 @@ h1 {
     text-align: center;
 }
 
->>>>>>> finalize website except navbar on mobile
 .main-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-}
-
-.main-flex img {
-    width: 70vw;
-    margin-bottom: 1rem;
-=======
     margin-bottom: 1rem;
 }
 
@@ -249,7 +176,6 @@ h1 {
 
 .container p {
     display: none;
->>>>>>> finalize website except navbar on mobile
 }
 
 .main-grid {
@@ -264,8 +190,6 @@ h1 {
 
 .main-grid img {
     width: calc((70vw - 1.5rem)/4);
-<<<<<<< HEAD
-=======
     height: 100%;
 }
 
@@ -306,7 +230,6 @@ h1 {
 @keyframes zoom {
     from {transform:scale(0)}
     to {transform:scale(1)}
->>>>>>> finalize website except navbar on mobile
 }
 
 .contact {
@@ -314,10 +237,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding-top: 1rem;
-<<<<<<< HEAD
-    background-color: #fbd4a7;
-=======
->>>>>>> finalize website except navbar on mobile
 }
 
 .contact h2 {
@@ -359,23 +278,12 @@ h1 {
 }
 
 .contact-flex li img {
-<<<<<<< HEAD
-    width: calc(1rem + 15vw);
-=======
     width: calc(1rem + 10vw);
->>>>>>> finalize website except navbar on mobile
 }
 
 footer {
     margin-top: auto;
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000;
-    color: #fff;
-    height: 2rem;
-=======
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -383,28 +291,14 @@ footer {
     background-color: #000;
     color: #fff;
     height: 3rem;
->>>>>>> finalize website except navbar on mobile
 }
 
 footer h2 {
     font-size: 1rem;
-<<<<<<< HEAD
-    margin-left: 0.5rem;
-=======
->>>>>>> finalize website except navbar on mobile
 }
 
 footer p {
     font-size: 0.5rem;
-<<<<<<< HEAD
-    margin-right: 0.5rem;
-}
-
-@media screen and (min-width: 425px) {
-    .about h2 {
-        padding-left: calc(0.2rem + 5vw);
-    }
-=======
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1314px) {
@@ -620,5 +514,4 @@ footer p {
         height: auto;
     }
 
->>>>>>> finalize website except navbar on mobile
 }
