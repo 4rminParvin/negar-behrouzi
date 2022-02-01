@@ -2,16 +2,28 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="./Styles/normalize.css">
+    <link rel="stylesheet" href="./Styles/index.css">
+    <script src="./JS/index.js" async></script>
     <title>Negar Behrouzi</title>
 </head>
 <body>
     <div class="flex-wrapper">
         <header>
             <h1>Negar Behrouzi</h1>
-            <button>
-                <img src="../2/Resources/svgfiles/menue.svg" alt="">
-            </button>
+            <div class="dropdown">
+                <div class="button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="dropdown-content">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                </div>
+            </div>
         </header>
 
         <nav>
@@ -20,52 +32,74 @@
 
         <main>
             <section class="about">
-                <img src="" alt="">
+                <img src="./Resources/black.jpg" alt="">
                 <h2>Lorem, ipsum dolor.</h2>
-                <article>
+                <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eum delectus neque reprehenderit ratione illo vel iure quisquam consequuntur voluptatum necessitatibus aut, nam dolores culpa soluta molestiae corrupti quos repudiandae.
-                </article>
+                </p>
             </section>
 
             <section class="portfolio">
-                <h2>Portfolio</h2>
+                <h2 id="port">Portfolio</h2>
+                <div class="line"></div>
+                <div class="bg-line"></div>
                 <div class="main-flex">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
                 </div>
                 <div class="main-grid">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
+                    <img src="./Resources/black.jpg" alt="">
                 </div>
             </section>
 
             <section class="contact">
                 <h2>Lorem, ipsum dolor.</h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Your name" required>
+                    <textarea name="" id="" placeholder="What do you want to tell me?" required></textarea>
+                    <input type="submit" name="" id="submit" value="Send">
+                </form>
+                <ul class="contact-flex">
+                    <li class="instagram">
+                        <a href=""><img src="./Resources/svgfiles/instagram.svg" alt=""></a>
+                    </li>
 
+                    <li class="linkedin">
+                        <a href=""><img src="./Resources/svgfiles/linked in.svg" alt=""></a>
+                    </li>
+
+                    <li class="phone">
+                        <a href=""><img src="./Resources/svgfiles/phone.svg" alt=""></a>
+                    </li>
+
+                    <li class="mail">
+                        <a href=""><img src="./Resources/svgfiles/gmail.svg" alt=""></a>
+                    </li>
+                </ul>
             </section>
         </main>
     
         <footer>
             <h2>Negar Behrouzi</h2>
             <p>
-                &copy; Copyright <span id="year"></span> Armin Parvin
+                Copyright &copy; <span id="year"></span> Armin Parvin
                 <br>
                 All rights reserved.
             </p>
         </footer>
     </div>
-    <script src="../2/JS/index.js" async></script>
 </body>
 </html>
