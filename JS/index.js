@@ -90,11 +90,11 @@ if (0 <= month && month <= 5) {
   document.getElementsByTagName('header')[0].style.backgroundColor = "#70beaf";
   document.getElementsByClassName('contact')[0].style.backgroundColor = "#b8dcd5";
   document.getElementsByClassName("transform")[0].style.backgroundColor = "#b8dcd5";
-  document.querySelector(".instagram img").src = "./Resources/Portfolio/Spring/Instagram.png";
-  document.querySelector(".linkedin img").src = "./Resources/Portfolio/Spring/LinkedIn.png";
-  document.querySelector(".phone img").src = "./Resources/Portfolio/Spring/Phone.png";
-  document.querySelector(".mail img").src = "./Resources/Portfolio/Spring//Mail.png";
-  document.querySelector(".skype img").src = "./Resources/Portfolio/Spring/Skype.png"
+  document.querySelector(".instagram img").src = "./Resources/Icons/Spring/Instagram.png";
+  document.querySelector(".linkedin img").src = "./Resources/Icons/Spring/LinkedIn.png";
+  document.querySelector(".phone img").src = "./Resources/Icons/Spring/Phone.png";
+  document.querySelector(".mail img").src = "./Resources/Icons/Spring//Mail.png";
+  document.querySelector(".skype img").src = "./Resources/Icons/Spring/Skype.png"
 
 } else if (6 <= month && month <= 8) {
   
@@ -102,11 +102,11 @@ if (0 <= month && month <= 5) {
   document.getElementsByTagName('header')[0].style.backgroundColor = "#d89349";
   document.getElementsByClassName('contact')[0].style.backgroundColor = "#fbd4a7";
   document.getElementsByClassName("transform")[0].style.backgroundColor = "#fbd4a7";
-  document.querySelector(".instagram img").src = "./Resources/Portfolio/Autumn/Instagram.png";
-  document.querySelector(".linkedin img").src = "./Resources/Portfolio/Autumn/LinkedIn.png";
-  document.querySelector(".phone img").src = "./Resources/Portfolio/Autumn/Phone.png";
-  document.querySelector(".mail img").src = "./Resources/Portfolio/Autumn/Mail.png";
-  document.querySelector(".skype img").src = "./Resources/Portfolio/Autumn/Skype.png"
+  document.querySelector(".instagram img").src = "./Resources/Icons/Autumn/Instagram.png";
+  document.querySelector(".linkedin img").src = "./Resources/Icons/Autumn/LinkedIn.png";
+  document.querySelector(".phone img").src = "./Resources/Icons/Autumn/Phone.png";
+  document.querySelector(".mail img").src = "./Resources/Icons/Autumn/Mail.png";
+  document.querySelector(".skype img").src = "./Resources/Icons/Autumn/Skype.png"
 
 } else if (9 <= month && month <= 11) {
 
@@ -114,11 +114,11 @@ if (0 <= month && month <= 5) {
   document.getElementsByTagName('header')[0].style.backgroundColor = "#80a3bf";
   document.getElementsByClassName('contact')[0].style.backgroundColor = "#d0e2ec";
   document.getElementsByClassName("transform")[0].style.backgroundColor = "#d0e2ec";
-  document.querySelector(".instagram img").src = "./Resources/Portfolio/Winter/Instagram.png";
-  document.querySelector(".linkedin img").src = "./Resources/Portfolio/Winter/LinkedIn.png";
-  document.querySelector(".phone img").src = "./Resources/Portfolio/Winter/Phone.png";
-  document.querySelector(".mail img").src = "./Resources/Portfolio/Winter/Mail.png";
-  document.querySelector(".skype img").src = "./Resources/Portfolio/Winter/Skype.png";
+  document.querySelector(".instagram img").src = "./Resources/Icons/Winter/Instagram.png";
+  document.querySelector(".linkedin img").src = "./Resources/Icons/Winter/LinkedIn.png";
+  document.querySelector(".phone img").src = "./Resources/Icons/Winter/Phone.png";
+  document.querySelector(".mail img").src = "./Resources/Icons/Winter/Mail.png";
+  document.querySelector(".skype img").src = "./Resources/Icons/Winter/Skype.png";
   
 }
 
