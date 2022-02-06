@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Passion One Regular';
+    src: url('../Resources/Fonts/PassionOne-Regular.ttf');
+    src: url('../Resources/Fonts/PassionOne-Regular.woff');
+    src: url('../Resources/Fonts/PassionOne-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Passion One Bold';
+    src: url('../Resources/Fonts/PassionOne-Bold.ttf');
+    src: url('../Resources/Fonts/PassionOne-Bold.woff');
+    src: url('../Resources/Fonts/PassionOne-Bold.woff2');
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -31,6 +45,7 @@ footer {
 }
 
 h1 {
+    font-family: 'Passion One Bold';
     font-size: calc(4vw + 0.5rem);
     margin-left: 1rem;
 }
@@ -56,6 +71,7 @@ h1 {
 .desktop-dropdown-content span {
     width: fit-content;
     cursor: pointer;
+    font-family: 'Passion One Regular';
 }
 
 .desktop-dropdown-content {
@@ -301,7 +317,6 @@ footer p {
         text-align: center;
         font-size: 32px;
         line-height: 38px;
-        font-family: futura-pt-bold, sans-serif;
         font-weight: 700;
         /* font-size: 3.5rem;
 				margin-left: 2rem; */
