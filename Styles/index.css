@@ -405,7 +405,7 @@ footer p {
         display: none;
     }
     .project:hover {
-        filter: brightness(50%);
+        filter: brightness(15%);
         transform: scale(1.2);
     }
     .project:hover+p {
